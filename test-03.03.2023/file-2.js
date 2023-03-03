@@ -1,7 +1,7 @@
-let myArr = [1, 2, 3, 2, 1, 1, 2, 3, 4, 5, 5, 4, 3, 2];
+
 
 // Remove the duplicate elements in the array
-function solution(arr) {
+function removeDuplicate(arr) {
 
     let ans = {};
 
@@ -16,7 +16,25 @@ function solution(arr) {
     return ans;
 }
 
-console.log(solution(myArr));
 
+function getCountOfElements(arr){
 
+    let ans = {};
 
+    for(let item of arr){
+
+        if (ans[item] === undefined){
+            ans[item] = 1;
+
+        } else {
+            ans[item] = ans[item] + 1;
+        } 
+    }
+    return ans;
+}
+
+let myArr = [1, 2, 3, 2, 1, 1, 2, 3, 4, 5, 5, 4, 3, 2];
+
+console.log(removeDuplicate(myArr));
+
+console.log(getCountOfElements(myArr));
