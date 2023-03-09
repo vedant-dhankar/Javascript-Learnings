@@ -1,8 +1,8 @@
-{function add(a,b) {
+function add(a,b) {
     return a+b
 }
 let funEXP = add(10,12)
-console.log(funEXP)}
+console.log(funEXP)
 
 {function sub(c,d) {
    if (c<d)
