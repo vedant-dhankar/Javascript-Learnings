@@ -27,7 +27,6 @@ function sum() {
 }
 sum();
 
-
 // function parameter vs function arguments
 //function parameter are the name listen in the function defination
 //function argumets are the real values passed to the function

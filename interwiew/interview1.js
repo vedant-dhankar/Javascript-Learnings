@@ -13,3 +13,4 @@ console.log(iAmJaat)//undefined
 let a = "jaat"
 let b = "bihari"
 console.log(a-b)//NaN is not a number
+

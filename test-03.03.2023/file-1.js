@@ -20,7 +20,7 @@ function mainFunction(arr) {
         }
         else {
             result.rest.push(num)
-        }
+        } 
         
     }
     return result;
