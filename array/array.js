@@ -125,48 +125,46 @@ myExes.forEach((element, index, array) => {
       console.log(myExes.shift());//tell wut is removed
       console.log(myExes);//gives new array
 }
- //1 : add decmber at the end of array
+//1 : add decmber at the end of array
 //2: what is the return value of splice method?
 //3: update march to march (upadte)?
 //delete june from array?
 {
-      const months = ["jan", 'March','april','june','july'];
-      
-      
+      const months = ["jan", 'March', 'april', 'june', 'july'];
+
+
       //splice()
       //add or remove elements from an array
-      
+
       //sol1
-      const newMonths =  months.splice(5,0,'dec');
+      const newMonths = months.splice(5, 0, 'dec');
       console.log(months);
-      
+
       //sol2
       console.log(newMonths);
-      
+
       //sol3
-      
-      const updateMonth = months.splice(1,1,'march')
+
+      const updateMonth = months.splice(1, 1, 'march')
       console.log(months);
-      
+
       //sol4 
-      const newMonth = months.splice(3,1)
+      const newMonth = months.splice(3, 1)
       console.log(months);
-      }
-      
-      
-      //
-      let myEx = ["prashansa", "keya", "sanvi", "angel"]
-      
-      let indexOfmyEx = myEx.indexOf("keya");
-      if(indexOfmyEx !=  -1 )
-      {
-           const fullex = myEx.splice(indexOfmyEx,1,'keya nagpal')
-          console.log(myEx)
-      } 
-      else  
-      {
-          console.log('no such data found');
-      }
+}
+
+
+//
+let myEx = ["prashansa", "keya", "sanvi", "angel"]
+
+let indexOfmyEx = myEx.indexOf("keya");
+if (indexOfmyEx != -1) {
+      const fullex = myEx.splice(indexOfmyEx, 1, 'keya nagpal')
+      console.log(myEx)
+}
+else {
+      console.log('no such data found');
+}
 
 
 //map()
@@ -180,28 +178,31 @@ myExes.forEach((element, index, array) => {
 //returns elements after execution of something
 //retunrns a new array contaning the results of callin a 
 //function on every element in this array
-{{
-
-let array1 = [1,2,3,45,55];
-//num <9
-
-let newArr = array1.map((currentElem,index,arr)=> {
-      return currentElem > 9;
-} )
-console.log(array1);
-console.log(newArr);//true false will come
-}}
-//now we want data instead of true and flase
-let array2 = [23,4565,53]
-let newarray2 = array2.map((currentElemt,index , arr ) => 
 {
+      {
+
+            let array1 = [1, 2, 3, 45, 55];
+            //num <9
+
+            let newArr = array1.map((currentElem, index, arr) => {
+                  return currentElem > 9;
+            })
+            console.log(array1);
+            console.log(newArr);//true false will come
+      }
+}
+//now we want data instead of true and flase
+let array2 = [23, 4565, 53]
+let newarray2 = array2.map((currentElemt, index, arr) => {
       return `index no = ${index} and the value is ${currentElemt}belongs to ${arr}`
 })
-console.log( newarray2 );
+console.log(newarray2);
 
 //it returns a new array without changing original array
 
 
-
-
-
+function jaat(q,b) {
+      console.log("I'm Fucking Rich Nigga Man")
+    console.log("Lord King Nigga");
+}
+jaat(1,2)
