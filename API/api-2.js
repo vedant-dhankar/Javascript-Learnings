@@ -10,3 +10,5 @@ const getData = async (url) => {
 
 document.addEventListener('click', () => { getData(API_URL) });
 
+
+
