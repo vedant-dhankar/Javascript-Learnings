@@ -7,8 +7,10 @@ const getData = async (url) => {
     res = await res.json();
     console.log(res);
 };
-
 document.addEventListener('click', () => { getData(API_URL) });
+
+
+
 
 
 
